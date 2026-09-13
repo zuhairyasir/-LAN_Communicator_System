@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.Here is a tailored `.gitignore` specifically configured for this Python socket and media streaming application:
+
+```gitignore
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# App-specific runtime downloads (created by os.path.expanduser('~')/ChatDownloads)
+ChatDownloads/
+downloads/
+received_files/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary test media & logs
+*.log
+*.tmp
+temp_recordings/
+capture_test.*
+test_files/
+
+# Network / Wireshark packet captures
+*.pcap
+*.pcapng
